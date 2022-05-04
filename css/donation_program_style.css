@@ -1,0 +1,225 @@
+:root
+{
+	--main-color: #009D32;
+	--sec-color: #005D1B;
+	--text-grey: #8390A2;
+}
+
+
+.program_cards
+{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 2rem;
+	margin-top: 1rem;
+}
+
+
+.program_cards_single
+{
+	/*display: flex;*/
+	justify-content: space-between;
+	background: #fff;
+	padding: 2rem;
+	border-radius: 2px;
+	/*align-items: end;*/
+}
+
+.program_cards_single:hover
+{
+	background: #ddd;
+	/*cursor: pointer;*/
+}
+
+
+.org_label
+{
+	color: #009d31;
+}
+
+.read-donate
+{
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+.read-donate a
+{
+	color: var(--sec-color);
+	text-decoration: underline;
+}
+
+
+.program_cards_single button
+{
+	background: var(--main-color);
+	border-radius: 10px;
+	color: #fff;
+	font-size: 0.8rem;
+	padding: .5rem 1rem;
+	border: 1px solid var(--main-color);
+	cursor: pointer;
+}
+
+.program_cards_single button:hover
+{
+	background: var(--sec-color);
+}
+
+
+
+
+/*donation page style*/
+
+.donation-form h2
+{
+	text-align: center;
+	margin-bottom: 30px;
+	border-bottom: 2px solid var(--main-color);
+	/*width: 30px;*/
+}
+.donation-form
+{
+	width: 70%;
+	/*height: 90%;*/
+	position: relative;
+	margin: 0 auto 1% auto ;
+	/*background: #fff;*/
+	padding: 5px 0px 10px 0px;
+	overflow-y: auto;
+}
+
+.input-don
+{
+	margin: 10px 10px 20px 10px;
+}
+
+.input-field
+{
+	width: 80%;
+	padding: 8px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+	text-align: center;
+}
+
+.don-receipt-file label{
+	margin-right: 20px;
+}
+
+/*.inputfile
+{
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputfile + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    display: inline-block;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: red;
+}*/
+
+.donate-btn
+{
+	width: 40%;
+	padding: 12px 30px;
+	cursor: pointer;
+	display: block;
+	margin: 30px auto;
+	background: var(--main-color);
+	border: 0;
+	color: #fff;
+	font-size: 13px;
+	/*font-weight: 600;*/
+	outline: none;
+	border-radius: 5px;
+	font-size: 15px;
+}
+
+
+.donate-btn span
+{
+	margin-left: 5px;
+	font-size: 20px;
+}
+
+.check-box-don
+{
+	width: 40%;
+	margin: 10px auto;
+}
+
+.check-box-don a
+{
+	text-decoration: underline;
+}
+
+.payment-options
+{
+	width: 80%;
+	/*height: 90%;*/
+	position: relative;
+	margin: 0 auto 1% auto ;
+	/*background: #fff;*/
+	padding: 5px 0px 10px 0px;
+	overflow-y: auto;
+}
+
+.jazz-cash-account img
+{
+	width: 70px;
+}
+.jazz-cash-account
+{
+	border-bottom: 1px solid black;
+	width: 80%;
+	margin: 10px 0 10px 0;
+	display: block;
+	align-items: center;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+.easypaisa-account
+{
+	width: 80%;
+	margin: 10px 0 10px 0;
+	display: block;
+	align-items: center;
+	text-align: center;
+}
+
+.easypaisa-account img
+{
+	width: 100px;
+}
+
+.success
+{
+	color: var(--main-color);
+	margin-left: 20px;
+}
+
+.error
+{
+	color: red;
+	margin-left: 20px;
+}

@@ -1,0 +1,38 @@
+.program-det-page
+{
+	width: 90%;
+	height: 90%;
+	position: relative;
+	margin: 0 auto 1% auto ;
+	/*background: #fff;*/
+	padding: 5px 0px 10px 0px;
+	overflow-y: auto;
+}
+
+.program-title
+{
+	margin-bottom: 1px;
+}
+
+.org-name
+{
+	color:var(--main-color);
+	margin-bottom: 5px;
+}
+
+.donate-button-prg
+{
+
+	width: 40%;
+	padding: 12px 30px;
+	cursor: pointer;
+	display: block;
+	margin: 30px auto;
+	background: var(--main-color);
+	border: 0;
+	color: #fff;
+	font-size: 13px;
+	/*font-weight: 600;*/
+	outline: none;
+	border-radius: 5px;
+}
