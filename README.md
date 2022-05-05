@@ -1,4 +1,4 @@
-# EasyFunds-SE-Project
+# The-EasyFunds-Project
 EasyFunds is a donation management system for donation programs. This platform collects various donation programs from different NGOs all around the world, at a single place.
 The user just have to register to EasyFunds, find the donation program of their liking with the help of details provided, and donate to that program.
 Donars can easily track their donations and keep a record of each transaction.
